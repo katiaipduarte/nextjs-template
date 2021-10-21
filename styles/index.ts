@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { ResetCSS } from './reset-css';
+import { ResetCSS } from './resetCSS';
 
 export const GlobalStyle = createGlobalStyle`
   ${ResetCSS}
@@ -21,5 +21,5 @@ export const GlobalStyle = createGlobalStyle`
     h1, h2, h3, h4, h5, h6, p, span {
       cursor: default;
       letter-spacing: 0.05rem;
-    }
+    }E
 `;
