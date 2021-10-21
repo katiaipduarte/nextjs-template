@@ -13,25 +13,63 @@
     "test": "jest",
     "test:watch": "npx test --watch",
     "test:coverage": "npx jest --coverage",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --config ./.prettierrc --write \"*/**/*{.ts,.tsx}\"",
+    "find:unused": "next-unused",
+    "install:npm": "rm -rf node_modules && rm package-lock.json && npm i",
+    "install:yarn": "rm -rf node_modules && rm yarn.lock && yarn"
   },
   "dependencies": {
+    "he": "^1.2.0",
     "next": "11.1.2",
+    "query-string": "^7.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "slugify": "^1.6.1",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
+    "@types/he": "^1.1.2",
     "@types/jest": "^27.0.2",
     "@types/react": "17.0.30",
+    "@types/styled-components": "^5.1.15",
     "babel-jest": "^27.2.5",
     "cypress": "^8.6.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
+    "husky": "^7.0.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.2.5",
+    "jest-styled-components": "^7.0.5",
+    "next-unused": "^0.0.6",
+    "prettier": "^2.4.1",
     "react-test-renderer": "^17.0.2",
     "typescript": "4.4.4"
+  },
+  "next-unused": {
+    "alias": {
+      "@components/*": [
+        "components/*"
+      ],
+      "@lib/*": [
+        "lib/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ]
+    },
+    "debug": true,
+    "include": [
+      "components",
+      "lib",
+      "pages",
+      "utils"
+    ],
+    "exclude": [],
+    "entrypoints": [
+      "pages"
+    ]
   }
 }
