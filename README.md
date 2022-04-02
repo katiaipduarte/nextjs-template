@@ -6,7 +6,7 @@ Demo at:
 
 App created using [Next.js 12](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), [styled-components](https://styled-components.com/) and for testing [Jest](https://jestjs.io/). Thank you for using my app.
 
-**Note:** To run this project be sure to have a Node version installed that is 12.x or higher
+**Note:** To run this project be sure to have a Node version installed that is 16.x or higher
 
 ## Table of Contents
 
