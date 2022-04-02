@@ -4,7 +4,7 @@ Welcome to my App, where you can see the latest post or read all of them, and al
 
 Demo at:
 
-App created using [Next.js 11](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), [styled-components](https://styled-components.com/) and for testing [Jest](https://jestjs.io/). Thank you for using my app.
+App created using [Next.js 12](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), [styled-components](https://styled-components.com/) and for testing [Jest](https://jestjs.io/). Thank you for using my app.
 
 **Note:** To run this project be sure to have a Node version installed that is 12.x or higher
 
@@ -31,6 +31,8 @@ App created using [Next.js 11](https://nextjs.org/), [TypeScript](https://www.ty
 ## Installation
 
 To use this app, first clone from GitHub via 'git clone https://github.com/katiaipduarte' at your terminal, `cd` to the new directory, then run `npm run install:npm`. Before running this project, you will need to create a `.env.local` file, with the same env as the ones in the `.env.example`. At last, run `npm run dev` to launch your http server.
+
+If you clone this repository, don't forget to run `npm i husky` or `yarn husky install` to enable husky.
 
 ## Future Work
 
@@ -143,7 +145,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run test:coverage`
+### `npm run test:ci`
 
 Launches the test runner in the interactive watch mode and shows a report with the code coverage for each component.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.

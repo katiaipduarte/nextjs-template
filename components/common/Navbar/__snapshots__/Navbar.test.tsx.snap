@@ -1,104 +1,106 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Navbar /> component Unit Test should render 1 <Navbar /> component 1`] = `
-<nav
-  class="Navbarstyle__NavbarContainer-sc-yas7rr-0 jnjGXY"
->
-  <ul
-    class="menu"
-    data-testid="menu"
+<div>
+  <nav
+    class="sc-gsnTZi iBdGQr"
   >
-    <li
-      class="logo"
+    <ul
+      class="menu"
+      data-testid="menu"
     >
-      <a
-        href="/"
+      <li
+        class="logo"
       >
-        App
-      </a>
-    </li>
-    <li
-      class="item"
-    >
-      <a
-        href="/about"
-      >
-        About
-      </a>
-    </li>
-    <li
-      class="theme-toggle"
-    >
-      <button
-        aria-label="Toggle dark mode"
-        class="ThemeSwitcherstyle__ThemeSwitcherButton-sc-144m5vw-0 gGPHOq"
-        type="button"
-      >
-        <svg
-          aria-hidden="true"
-          class="svg-inline--fa fa-moon fa-w-16 "
-          data-icon="moon"
-          data-prefix="fas"
-          focusable="false"
-          role="img"
-          viewBox="0 0 512 512"
-          xmlns="http://www.w3.org/2000/svg"
+        <a
+          href="/"
         >
-          <path
-            d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z"
-            fill="currentColor"
-          />
-        </svg>
-      </button>
-    </li>
-    <li
-      class="toggle"
-      data-testid="menu-btn"
-    >
-      <button
-        aria-label="Toggle dark mode"
-        class="ThemeSwitcherstyle__ThemeSwitcherButton-sc-144m5vw-0 gGPHOq"
-        type="button"
+          App
+        </a>
+      </li>
+      <li
+        class="item"
       >
-        <svg
-          aria-hidden="true"
-          class="svg-inline--fa fa-moon fa-w-16 "
-          data-icon="moon"
-          data-prefix="fas"
-          focusable="false"
-          role="img"
-          viewBox="0 0 512 512"
-          xmlns="http://www.w3.org/2000/svg"
+        <a
+          href="/about"
         >
-          <path
-            d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z"
-            fill="currentColor"
-          />
-        </svg>
-      </button>
-      <a
-        aria-label="Click to open mobile menu"
-        data-testid="mobile-menu-btn"
-        role="button"
-        tabindex="0"
+          About
+        </a>
+      </li>
+      <li
+        class="theme-toggle"
       >
-        <svg
-          aria-hidden="true"
-          class="svg-inline--fa fa-bars fa-w-14 "
-          data-icon="bars"
-          data-prefix="fas"
-          focusable="false"
-          role="img"
-          viewBox="0 0 448 512"
-          xmlns="http://www.w3.org/2000/svg"
+        <button
+          aria-label="Toggle dark mode"
+          class="sc-bczRLJ cdwfUi"
+          type="button"
         >
-          <path
-            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
-            fill="currentColor"
-          />
-        </svg>
-      </a>
-    </li>
-  </ul>
-</nav>
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-moon "
+            data-icon="moon"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </li>
+      <li
+        class="toggle"
+        data-testid="menu-btn"
+      >
+        <button
+          aria-label="Toggle dark mode"
+          class="sc-bczRLJ cdwfUi"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-moon "
+            data-icon="moon"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <a
+          aria-label="Click to open mobile menu"
+          data-testid="mobile-menu-btn"
+          role="button"
+          tabindex="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-bars "
+            data-icon="bars"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
 `;

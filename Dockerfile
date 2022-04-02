@@ -8,7 +8,7 @@ ENV NODE_ENV production
 
 RUN npm ci
 RUN npm run lint
-RUN npm test
+RUN npm test:ci
 RUN npm run build
 
 FROM node:14.16.1-alpine

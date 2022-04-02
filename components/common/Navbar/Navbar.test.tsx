@@ -3,16 +3,6 @@ import React from 'react';
 import Navbar from './Navbar';
 
 describe('<Navbar /> component Unit Test', () => {
-  beforeEach(() => {
-    render(
-      <Navbar
-        mountedComponent={true}
-        theme="light"
-        themeToggler={jest.fn().mockName('mockedFunction')}
-      />
-    );
-  });
-
   it('should render 1 <Navbar /> component', () => {
     const { container } = render(
       <Navbar
@@ -21,10 +11,18 @@ describe('<Navbar /> component Unit Test', () => {
         themeToggler={jest.fn().mockName('mockedFunction')}
       />
     );
-    expect(container.firstChild).toMatchSnapshot();
+    expect(container).toMatchSnapshot();
   });
 
   it('should add active to className in ul, when clicking the faBars icon', () => {
+    render(
+      <Navbar
+        mountedComponent={true}
+        theme="light"
+        themeToggler={jest.fn().mockName('mockedFunction')}
+      />
+    );
+
     const menuBtn = screen.getByTestId('menu-btn');
     const menu = screen.getByTestId('menu');
 
