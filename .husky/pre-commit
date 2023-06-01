@@ -1,4 +1,8 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
 
-yarn lint-staged
+# Run lint and format before each commit
+npm lint-staged
+
+# Add the changes to the staging area
+git add .

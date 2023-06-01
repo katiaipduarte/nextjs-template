@@ -4,7 +4,7 @@ Welcome to my App, where you can see the latest post or read all of them, and al
 
 Demo at:
 
-App created using [Next.js 12](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), [styled-components](https://styled-components.com/) and for testing [Jest](https://jestjs.io/). Thank you for using my app.
+App created using [Next.js 13](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), [styled-components](https://styled-components.com/) and for testing [Jest](https://jestjs.io/). Thank you for using my app.
 
 **Note:** To run this project be sure to have a Node version installed that is 16.x or higher
 
@@ -30,9 +30,9 @@ App created using [Next.js 12](https://nextjs.org/), [TypeScript](https://www.ty
 
 ## Installation
 
-To use this app, first clone from GitHub via 'git clone https://github.com/katiaipduarte' at your terminal, `cd` to the new directory, then run `npm run install:npm`. Before running this project, you will need to create a `.env.local` file, with the same env as the ones in the `.env.example`. At last, run `npm run dev` to launch your http server.
+To use this app, first clone from GitHub via 'git clone https://github.com/katiaipduarte' at your terminal, `cd` to the new directory, then run `npm i`. Before running this project, you will need to create a `.env.local` file, with the same env as the ones in the `.env.example`. At last, run `npm run dev` to launch your http server.
 
-If you clone this repository, don't forget to run `npm i husky` or `yarn husky install` to enable husky.
+If you clone this repository, don't forget to run `npm run prepare` to enable husky.
 
 ## Future Work
 
@@ -49,19 +49,12 @@ The code is available as open source under the terms of the MIT License.
 ## Folder Structure
 
 ```
-blog-app/
-    .jest/
+nextjs-template/
+    app/
     components/
-        common/
-        templates/
-        ui/
     constants/
     interfaces/
-    lib/
-        hooks/
-        seo/
-        services/
-    pages/
+    types/
     public/
     styles/
     utils/
@@ -69,17 +62,13 @@ blog-app/
 
 For the project to build, **these files must exist with exact filenames**:
 
-- `.jest` contains a single file for the setup of the plugins/npm packages used in the unit tests.
 - `components` is the folder that houses all the components used. It's divided for now into 5 modules.
-  - `common`: components that are used all the time when we render a page.
-  - `templates`: pages templates.
-  - `ui`: small components ui components with or without logic.
 - `constants` is the folder with all the enums or const objects used in the components.
-- `interfaces` is the folder with all the interfaces/type files used in the components.
-- `lib` is the folder for some hooks, SEO and services provider.
-- `pages` is the folder that contains the files with the initial logic used for each route.
+- `interfaces` is the folder with all the interfaces files used in the components.
+- `app` is the folder that contains the files with the initial logic used for each route.
 - `public` the folder only contains the favicon images.
-- `style` is the folder with reset, themes and any other style rules shared by all components.
+- `styles` is the folder with reset, themes and any other style rules shared by all components.
+- `types` is the folder with all the types files used in the components.
 - `utils` is the folder with helper functions.
 
 ## Environment variables
@@ -89,10 +78,6 @@ NEXT_PUBLIC_APP_URL=
 NEXT_PUBLIC_API_ENDPOINT=
 
 ## Available Scripts
-
-### `npm run install:npm`
-
-Clear installation of all node modules.
 
 ### `npm run dev`
 
@@ -115,10 +100,6 @@ Your app is ready to be deployed!
 Runs the app in the production mode.<br />
 Open [http://localhost](http://localhost) to view it in the browser.
 
-### `npm run find:unused`
-
-[next-unused](https://github.com/pacocoursey/next-unused) is used to find all the unused files in the project.
-
 ### `npm run lint`
 
 Automatic linting, with rules to work with TypeScript and React. The `node_modules` and `e2e` folders are not included.
@@ -134,18 +115,3 @@ Command to format the code according to the rules that can be found in `.prettie
 This will be automatically run each time you do a commit.
 
 For more information see the [Prettier documentation](https://prettier.io/).
-
-### `npm run test`
-
-Runs all the tests founded.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run test:watch`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run test:ci`
-
-Launches the test runner in the interactive watch mode and shows a report with the code coverage for each component.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.

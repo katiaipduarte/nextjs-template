@@ -1,5 +1,5 @@
 export type DynamicComponent = {
-  name: string;
-  props: unknown;
-  path?: string;
-};
+	name: string
+	props: unknown
+	path?: string
+}

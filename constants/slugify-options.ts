@@ -1,4 +1,4 @@
 export const slugifyOptions = {
-  replacement: '-',
-  lower: true
-};
+	replacement: '-',
+	lower: true,
+}
