@@ -18,7 +18,6 @@ module.exports = {
 		'@typescript-eslint',
 		'sonarjs',
 		'jsx-a11y',
-		'react-refresh',
 		'prettier',
 		'prefer-arrow-functions',
 		'simple-import-sort',
