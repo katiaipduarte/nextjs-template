@@ -43,5 +43,6 @@ With this template, you get:
 - **[Tailwind CSS](https://tailwindcss.com/)**
 - **[ESlint](https://eslint.org/)** and **[Prettier](https://prettier.io/)**
 - **[Jest](https://jestjs.io/)** and **[React Testing Library](https://testing-library.com/react)** tests
+- **[Playwright](https://playwright.dev/)**
 - **[Conventional commits git hook](https://www.conventionalcommits.org/)**
 - **[Absolute imports](https://nextjs.org/docs/advanced-features/module-path-aliases)**
