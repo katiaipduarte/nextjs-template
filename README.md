@@ -34,3 +34,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Features
+
+With this template, you get:
+
+- **[Next.js](https://nextjs.org/)**
+- **[Tailwind CSS](https://tailwindcss.com/)**
+- **[ESlint](https://eslint.org/)** and **[Prettier](https://prettier.io/)**
+- **[Jest](https://jestjs.io/)** and **[React Testing Library](https://testing-library.com/react)** tests
+- **[Conventional commits git hook](https://www.conventionalcommits.org/)**
+- **[Absolute imports](https://nextjs.org/docs/advanced-features/module-path-aliases)**
