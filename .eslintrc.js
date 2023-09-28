@@ -22,8 +22,6 @@ module.exports = {
 		'prefer-arrow-functions',
 		'simple-import-sort',
 		'filename-rules',
-		'jsdoc',
-		'eslint-plugin-tsdoc',
 	],
 	extends: [
 		'next/core-web-vitals',
@@ -37,7 +35,7 @@ module.exports = {
 		'plugin:sonarjs/recommended',
 		'plugin:jsx-a11y/recommended',
 		'plugin:prettier/recommended',
-		'plugin:jsdoc/recommended-typescript',
+		'plugin:storybook/recommended',
 	],
 	// Ignore files in root
 	ignorePatterns: ['/*.*'],
@@ -267,7 +265,6 @@ module.exports = {
 		],
 
 		'react/prefer-stateless-function': 'error',
-		'react/button-has-type': 'error',
 		'react/no-unused-prop-types': 'error',
 		'react/jsx-pascal-case': 'error',
 		'react/jsx-no-script-url': 'error',
@@ -276,6 +273,7 @@ module.exports = {
 		'react/no-danger-with-children': 'error',
 		'react/no-unstable-nested-components': ['error', { allowAsProps: true }],
 		'react/jsx-fragments': 'error',
+		// In atomic components doesnt make sense
 		'react/destructuring-assignment': [
 			'error',
 			'always',
@@ -314,43 +312,6 @@ module.exports = {
 		'simple-import-sort/imports': 'warn',
 		'simple-import-sort/exports': 'warn',
 
-		'jsdoc/require-throws': 'error',
-		'jsdoc/check-indentation': 'warn',
-		'jsdoc/no-blank-blocks': 'warn',
-		'jsdoc/require-asterisk-prefix': 'warn',
-		'jsdoc/require-description': 'warn',
-		'jsdoc/sort-tags': 'warn',
-		'jsdoc/check-syntax': 'warn',
-		'jsdoc/tag-lines': ['warn', 'never', { startLines: 1 }],
-		'jsdoc/require-param': ['warn', { checkDestructuredRoots: false }],
-		// Activate only if you wanna comment all the code
-		// 'jsdoc/require-jsdoc': [
-		// 	'warn',
-		// 	{
-		// 		publicOnly: true,
-		// 		require: {
-		// 			FunctionDeclaration: true,
-		// 			FunctionExpression: true,
-		// 			ArrowFunctionExpression: true,
-		// 			ClassDeclaration: true,
-		// 			ClassExpression: true,
-		// 			MethodDefinition: true,
-		// 		},
-		// 		contexts: [
-		// 			'VariableDeclaration',
-		// 			'TSTypeAliasDeclaration',
-		// 			// Encourage documenting React prop types
-		// 			'TSPropertySignature',
-		// 		],
-		// 		enableFixer: true,
-		// 	},
-		// ],
-		// tsdoc checks this syntax instead
-		'jsdoc/require-hyphen-before-param-description': 'off',
-		'jsdoc/require-returns': 'off',
-
-		'tsdoc/syntax': 'warn',
-
 		'prefer-arrow-functions/prefer-arrow-functions': [
 			'warn',
 			{
@@ -387,7 +348,6 @@ module.exports = {
 				'@typescript-eslint/naming-convention': 'off',
 				'@typescript-eslint/no-floating-promises': 'off',
 				'import/no-default-export': 'off',
-				'jsdoc/require-jsdoc': 'off',
 			},
 		},
 	],

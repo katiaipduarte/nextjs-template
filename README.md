@@ -46,5 +46,6 @@ With this template, you get:
 - **[Bundle analyzer plugin](https://www.npmjs.com/package/@next/bundle-analyzer)**
 - **[Jest](https://jestjs.io/)** and **[React Testing Library](https://testing-library.com/react)** tests
 - **[Playwright](https://playwright.dev/)**
+- **[Storybook](https://storybook.js.org/)**
 - **[Conventional commits git hook](https://www.conventionalcommits.org/)**
 - **[Absolute imports](https://nextjs.org/docs/advanced-features/module-path-aliases)**
