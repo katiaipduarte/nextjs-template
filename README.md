@@ -42,6 +42,7 @@ With this template, you get:
 - **[Next.js](https://nextjs.org/)**
 - **[Tailwind CSS](https://tailwindcss.com/)**
 - **[ESlint](https://eslint.org/)** and **[Prettier](https://prettier.io/)**
+- **[TypeScript Reset](https://github.com/total-typescript/ts-reset)**
 - **[Bundle analyzer plugin](https://www.npmjs.com/package/@next/bundle-analyzer)**
 - **[Jest](https://jestjs.io/)** and **[React Testing Library](https://testing-library.com/react)** tests
 - **[Playwright](https://playwright.dev/)**
