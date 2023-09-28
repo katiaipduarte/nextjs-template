@@ -1,15 +1,23 @@
 /* eslint-disable */
+import { VariantProps } from 'class-variance-authority'
 import { type ButtonHTMLAttributes } from 'react'
+import { twMerge } from 'tailwind-merge'
+import { buttonVariants } from './button.variants'
 
 type ButtonProps = {
 	onClickButton: () => void
-} & ButtonHTMLAttributes<HTMLButtonElement>
+} & ButtonHTMLAttributes<HTMLButtonElement> &
+	VariantProps<typeof buttonVariants>
 
 const Button = (props: ButtonProps): JSX.Element => {
-	const { onClickButton } = props
+	const { className, intent, size, onClickButton } = props
 
 	return (
-		<button onClick={onClickButton} {...props}>
+		<button
+			className={twMerge(buttonVariants({ intent, size, className }))}
+			onClick={onClickButton}
+			{...props}
+		>
 			{props.children}
 		</button>
 	)

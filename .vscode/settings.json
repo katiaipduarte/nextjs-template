@@ -24,5 +24,9 @@
 	"search.exclude": {
 		"yarn.lock": true,
 		"**/node_modules": true
-	}
+	},
+	"tailwindCSS.experimental.classRegex": [
+		["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+		["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+	]
 }

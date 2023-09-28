@@ -5,6 +5,7 @@
 		"orta.vscode-jest",
 		"github.vscode-github-actions",
 		"csstools.postcss",
-		"bradlc.vscode-tailwindcss"
+		"bradlc.vscode-tailwindcss",
+		"tailwindlabs.tailwindcss-intellisense"
 	]
 }

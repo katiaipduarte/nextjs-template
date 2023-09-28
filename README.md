@@ -49,3 +49,8 @@ With this template, you get:
 - **[Storybook](https://storybook.js.org/)**
 - **[Conventional commits git hook](https://www.conventionalcommits.org/)**
 - **[Absolute imports](https://nextjs.org/docs/advanced-features/module-path-aliases)**
+- **[Health checks](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)**
+- **[CVA](http://cva.style/)**
+- **[Patch-package](https://www.npmjs.com/package/patch-package)**
+- **Components coupling and cohesion graph**
+- **[T3 Env](https://env.t3.gg/)**

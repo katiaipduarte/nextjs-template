@@ -6,9 +6,20 @@ const meta: Meta<typeof Button> = {
 	title: 'Button',
 	component: Button,
 	args: {
+		intent: 'primary',
 		children: 'Button',
+		size: 'lg',
 	},
-	argTypes: {},
+	argTypes: {
+		intent: {
+			options: ['primary', 'secondary', 'danger'],
+			control: { type: 'select' },
+		},
+		size: {
+			options: ['sm', 'lg'],
+			control: { type: 'select' },
+		},
+	},
 }
 
 type Story = StoryObj<typeof Button>
