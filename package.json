@@ -16,7 +16,8 @@
     "storybook:build": "storybook build",
     "analyze": "cross-env ANALYZE=true yarn build",
     "postinstall": "npx patch-package -y && husky install",
-    "preinstall": "npx only-allow yarn"
+    "preinstall": "npx only-allow yarn",
+    "coupling-check": "npx madge --circular --extensions js,jsx,ts,tsx,css,md,mdx ./ --exclude '.next|tailwind.config.js|reset.d.ts|prettier.config.js|postcss.config.js|playwright.config.ts|next.config.js|next-env.d.ts|e2e/|README.md|.storybook/|.eslintrc.js|coverage/|commitlint.config.js|styles/|tailwind.config.ts'"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^13.5.3",
