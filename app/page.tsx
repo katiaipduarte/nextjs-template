@@ -12,6 +12,11 @@ const Home = () => (
 			<h2>About Page &rarr;</h2>
 			<p>Playwright will test if this link is working.</p>
 		</Link>
+
+		<Link href='/hydration-stream-suspense'>
+			(recommended method): React Query with Stream Hydration --- Bad for SEO
+			with good performance
+		</Link>
 	</main>
 )
 

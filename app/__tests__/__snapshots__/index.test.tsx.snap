@@ -18,6 +18,11 @@ exports[`Home renders homepage unchanged 1`] = `
         Playwright will test if this link is working.
       </p>
     </a>
+    <a
+      href="/hydration-stream-suspense"
+    >
+      (recommended method): React Query with Stream Hydration --- Bad for SEO with good performance
+    </a>
   </main>
 </div>
 `;

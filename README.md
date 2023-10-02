@@ -54,3 +54,4 @@ With this template, you get:
 - **[Patch-package](https://www.npmjs.com/package/patch-package)**
 - **Components coupling and cohesion graph**
 - **[T3 Env](https://env.t3.gg/)**
+- **[React Query Suspense](https://tanstack.com/query/v5/docs/react/guides/suspense)**
