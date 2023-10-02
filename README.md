@@ -55,3 +55,39 @@ With this template, you get:
 - **Components coupling and cohesion graph**
 - **[T3 Env](https://env.t3.gg/)**
 - **[React Query Suspense](https://tanstack.com/query/v5/docs/react/guides/suspense)**
+
+## File structure
+
+**Source code tree:**
+
+```
+src
+|-- app
+   |-- layout.tsx
+   |-- page.tsx
+|-- components
+|-- lib
+   |-- assets
+   |-- helpers
+   |-- hooks
+   |-- mocks
+   |-- styles
+   |-- utils
+|-- services
+...
+```
+
+**Component structure:**
+
+```
+...
+components
+|-- Component
+   |-- Component.tsx
+   |-- Component.spec.ts
+   |-- Component.stories.tsx
+   |-- interfaces.ts
+   |-- styles.ts
+   |-- index.tsx
+...
+```

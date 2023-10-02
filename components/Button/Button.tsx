@@ -2,7 +2,7 @@
 import { VariantProps } from 'class-variance-authority'
 import { type ButtonHTMLAttributes } from 'react'
 import { twMerge } from 'tailwind-merge'
-import { buttonVariants } from './button.variants'
+import { buttonVariants } from './styles'
 
 type ButtonProps = {
 	onClickButton: () => void
