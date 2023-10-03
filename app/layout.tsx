@@ -1,4 +1,4 @@
-import '../styles/tailwind.css'
+import '@/lib/styles/tailwind.css'
 
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'

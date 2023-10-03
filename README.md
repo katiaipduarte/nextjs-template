@@ -55,13 +55,14 @@ With this template, you get:
 - **Components coupling and cohesion graph**
 - **[T3 Env](https://env.t3.gg/)**
 - **[React Query Suspense](https://tanstack.com/query/v5/docs/react/guides/suspense)**
+- **[Axios](https://axios-http.com/docs/intro)**
+- **[React Hook Form](https://react-hook-form.com/)**
 
 ## File structure
 
 **Source code tree:**
 
 ```
-src
 |-- app
    |-- layout.tsx
    |-- page.tsx
@@ -73,7 +74,7 @@ src
    |-- mocks
    |-- styles
    |-- utils
-|-- services
+   |-- services
 ...
 ```
 
@@ -84,7 +85,7 @@ src
 components
 |-- Component
    |-- Component.tsx
-   |-- Component.spec.ts
+   |-- Component.test.ts
    |-- Component.stories.tsx
    |-- interfaces.ts
    |-- styles.ts
