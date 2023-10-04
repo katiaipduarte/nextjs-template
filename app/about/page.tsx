@@ -1,4 +1,4 @@
-import Form from '@/components/Form/Form'
+import Form from '@/components/form/form'
 
 export const metadata = {
 	title: 'About',

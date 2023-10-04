@@ -1,6 +1,6 @@
 import { Suspense } from 'react'
 
-import ListMovies from '@/components/ListMovies/ListMovies'
+import ListMovies from '@/components/listMovies/listMovies'
 
 const HydrationStreamSuspense = () => (
 	<main className='flex min-h-screen flex-col items-center justify-between p-24'>

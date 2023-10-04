@@ -2,7 +2,7 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 # npm test
-yarn lint
-yarn format
-yarn test:precommit
+bun lint
+bun format
+bun test:precommit
 git add .
