@@ -1,8 +1,8 @@
-/* eslint-disable */
-import { VariantProps } from 'class-variance-authority'
+import { type VariantProps } from 'class-variance-authority'
 import { type ButtonHTMLAttributes } from 'react'
 import { twMerge } from 'tailwind-merge'
-import { buttonVariants } from './styles'
+
+import { buttonVariants } from './button.styles'
 
 type ButtonProps = {
 	onClickButton: () => void
@@ -10,7 +10,7 @@ type ButtonProps = {
 	VariantProps<typeof buttonVariants>
 
 const Button = (props: ButtonProps): JSX.Element => {
-	const { className, intent, size, onClickButton } = props
+	const { className, intent, size, children, onClickButton } = props
 
 	return (
 		<button
@@ -18,7 +18,7 @@ const Button = (props: ButtonProps): JSX.Element => {
 			onClick={onClickButton}
 			{...props}
 		>
-			{props.children}
+			{children}
 		</button>
 	)
 }
