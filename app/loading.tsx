@@ -1,5 +1,3 @@
-const Loading = () => {
-	return <div className='flex-center w-full'></div>
-}
+const Loading = () => <div className='flex-center w-full' />
 
 export default Loading

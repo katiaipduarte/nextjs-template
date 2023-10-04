@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders homepage unchanged 1`] = `
+<div>
+  <main
+    class="flex min-h-screen flex-col items-center justify-between p-24"
+  >
+    <h1>
+      My Normal Next.js Page with Static Metadata
+    </h1>
+    <a
+      href="/about"
+    >
+      <h2>
+        About Page →
+      </h2>
+      <p>
+        Playwright will test if this link is working.
+      </p>
+    </a>
+    <a
+      href="/hydration-stream-suspense"
+    >
+      (recommended method): React Query with Stream Hydration --- Bad for SEO with good performance
+    </a>
+  </main>
+</div>
+`;

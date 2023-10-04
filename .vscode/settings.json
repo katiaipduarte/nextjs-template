@@ -10,7 +10,6 @@
 	"editor.tabSize": 2,
 	"editor.detectIndentation": false,
 	"npm.packageManager": "npm",
-	"eslint.packageManager": "npm",
 	"eslint.validate": [
 		"javascript",
 		"javascriptreact",
@@ -23,7 +22,11 @@
 		"onSave": "test-file"
 	},
 	"search.exclude": {
-		"package-lock.json": true,
+		"yarn.lock": true,
 		"**/node_modules": true
-	}
+	},
+	"tailwindCSS.experimental.classRegex": [
+		["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+		["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+	]
 }
